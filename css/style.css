@@ -9,10 +9,39 @@ html {
   scroll-behavior: smooth;
 }
 
-#tt{
-  color: #fff;
+/*==== Header =====*/
+
+#tt {
+  color: #353434;
 }
 
-.video {
+/*==== main ====*/
+
+#win {
   padding: 10px;
 }
+
+#Img {
+  height: 500px;
+}
+
+/*==============*/
+
+/*==== windowB ======*/
+
+#winB {
+  padding: 10px;
+}
+
+.GridB {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+/*===================*/
+
+/*======= Video =======*/
+
+
+
+/*=====================*/

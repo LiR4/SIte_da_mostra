@@ -6,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="../home/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="../home/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="../home/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="../home/favicon/site.webmanifest" />
-
-    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./icons/site.webmanifest" />
 
     <link rel="stylesheet" href="../home/css/style.css" />
 
@@ -38,10 +38,17 @@
   <body>
     <nav
       class="navbar navbar-expand-lg navbar-light"
-      style="background-color: rgba(53, 52, 52, 0.87)"
+      style="background-color: #fff"
     >
       <div class="container-fluid">
-        <a id="tt" class="navbar-brand" href="#">Navbar</a>
+        <a id="tt" class="navbar-brand" href="#"
+          ><img
+            src="./icons/android-chrome-512x512.png"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -58,33 +65,253 @@
             <a id="tt" class="nav-link active" aria-current="page" href="#"
               >Home</a
             >
-            <a id="tt" class="nav-link" href="#">Sobre</a>
-            <a id="tt" class="nav-link" href="#">Participantes</a>
-            <a
-              id="tt"
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Extra</a
-            >
+            <a id="tt" class="nav-link" href="#Person">Participantes</a>
+            <a id="tt" class="nav-link" href="#Manking">Extra</a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="video">
-            <div class="ratio ratio-16x9">
-              <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
-            </div>  
+
+    <div class="card" id="win">
+      <div class="card-body">
+        <div class="card mb-3">
+          <img
+            src="./images/d3861e6e-d997-47eb-b850-b3e482f5e67f.jpg"
+            class="card-img-top"
+            id="Img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Quincas borba</h5>
+            <p class="card-text">
+              Mostra Cultural produzida pelos alunos do 2 e 1 médio.<br />
+              Com o intuito de incentivar a leitura do livro "Quincas Borba"<br />
+              Aqui você ira ver quem fez o papel dos personagens, making off do
+              vídeo.
+            </p>
+            <p class="card-text">
+              <small class="text-muted"
+                >Cordenadores:<br />Edi Carlos <br />Jessé Alves <br />Sônia
+                Salgado</small
+              >
+            </p>
           </div>
         </div>
-        <div class="col">
-          asdfghjk
+      </div>
+
+      <div class="card" id="winB">
+        <div class="card-body" id="Person">
+          <div class="GridB">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images//Quincas.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Quincas Borba</h5>
+                    <p class="card-text">Gabriel Felix</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/670d0dea-2c78-4cb7-b466-ff2f928e24f0.jpg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Rubião</h5>
+                    <p class="card-text">Pedro Henrique Pessine</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/Palha.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Palha</h5>
+                    <p class="card-text">Roberto belchior</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/Sofia.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Sofia</h5>
+                    <p class="card-text">Laryssa Novaes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/empregado.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Empregado</h5>
+                    <p class="card-text">Vinícius Junji</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/kamacho.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Kamacho</h5>
+                    <p class="card-text">Karina Santos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/Carlos_Maria.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Carlos Maria</h5>
+                    <p class="card-text">Otavio Augusto</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/Pessoa_misteriosa.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Pessoa Misteriosa</h5>
+                    <p class="card-text">Davi Evangelista</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/cachorro.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Cachorro</h5>
+                    <p class="card-text">João Paulo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/Segurança1.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Segurança 1</h5>
+                    <p class="card-text">Pedro Henrique Lira</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./images/Segurança2.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Segurança 2</h5>
+                    <p class="card-text">Cauã Souza</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
+      </div>
+    </div>
+
+    <div class="card" id="Video">
+      <div class="card-body" id="Manking">
+        <div class="card">
+          <div class="card-body">
+            <div class="ratio ratio-16x9">
+              <iframe src="" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -93,7 +320,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script>
-    </script>
   </body>
 </html>
